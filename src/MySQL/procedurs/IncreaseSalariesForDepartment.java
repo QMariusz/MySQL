@@ -1,4 +1,4 @@
-package MySQL;
+package MySQL.procedurs;
 import java.sql.*;
 
 public class IncreaseSalariesForDepartment {
