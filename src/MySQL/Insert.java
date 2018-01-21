@@ -2,7 +2,6 @@ package MySQL;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class Insert {
@@ -18,7 +17,7 @@ public class Insert {
 			//2 Create astatement
 			Statement myStat = myCon.createStatement();
 			//3 Execute SQL query
-			String sql = "Insert into ksiazki values('0', 'dan','brown','sa','1','2','1','2','1','2')";
+			String sql = "Insert into ksiazki values('2', 'dan','brown','sa','1','2','1','2','1','2')";
 			
 			myStat.executeUpdate(sql);
 			
